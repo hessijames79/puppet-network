@@ -168,3 +168,13 @@ allow-hotplug <%= @interface %>
 <% if @bond_xmit_hash_policy -%>
     bond_xmit_hash_policy <%= @bond_xmit_hash_policy %>
 <% end -%>
+<% if @wpa_ssid -%>
+    wpa-ssid <%= @wpa_ssid %>
+<% end -%>
+<% if @wpa_psk -%>
+    wpa-psk <%= @wpa_psk %>
+<% end -%>
+<% if @wireless_power -%>
+    wireless-power <%= @wireless_power %>
+<% end -%>
+

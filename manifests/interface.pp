@@ -174,6 +174,11 @@ define network::interface (
   $bridge_fd       = undef,
   $bridge_maxwait  = undef,
 
+  # For wireless
+  $wireless_power  = undef,
+  $wpa_ssid        = undef,
+  $wpa_psk         = undef,
+
   # RedHat specific
   $ipaddr          = '',
   $uuid            = undef,
